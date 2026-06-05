@@ -1,0 +1,14 @@
+{
+  "name": "account-verification-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mjml index.mjml -o index.html",
+    "watch": "nodemon --ext mjml --exec \"npm run build\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
